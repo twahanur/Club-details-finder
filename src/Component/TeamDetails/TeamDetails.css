@@ -1,0 +1,47 @@
+.banner{
+    max-height: 1300px;
+    position: relative;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.detailsPage{
+    background: linear-gradient(145deg, #080727 50%, hsla(177, 91%, 31%, 0.979) 100%);
+}
+
+.about{
+    border: 1px solid #fff;
+    border-radius: 5% 40% 5% 40% / 10% 25% 10% 24%  ;
+    height: 300px;
+    overflow: hidden;
+    font-weight: 900;
+    color: rgb(50, 5, 255);
+
+}
+.information{
+    width: 50%;
+    text-align: left;
+}
+.about h3{
+    padding-left: 50%;
+    font-size: 40px;
+    color: #fff
+}
+.image{
+    width: 50%;
+}
+.image img{
+    width: 100%;
+    object-fit: fill;
+}
+.text{
+    background: linear-gradient(to right, #b5ffff 10%, #14ff4f 100%);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+    font-weight: 700;
+}
+.icon{
+    height: 30px;
+    border-radius:5%;
+    width: 30px;
+}
